@@ -1,0 +1,127 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+}
+
+
+/* splash screen css starts here  */
+#loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: black url("https://media.giphy.com/media/17mNCcKU1mJlrbXodo/giphy.gif") no-repeat center center;
+    z-index: 99999;
+}
+/* splash screen css ends here https://media.giphy.com/media/xTk9ZvMnbIiIew7IpW/giphy.gif" */
+
+/* navbar css starts here  */
+.bg-light{
+    background-color: #293750!important;
+}
+
+.navbar-brand{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1.5rem;
+    color: #f3f1f1!important;
+}
+
+.nav-link{
+    color: #f3f1f1!important;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav-link:hover{
+    background-color: #f3f1f1;
+    color:#293750!important ;
+}
+/* navbar css ends here  */
+
+/* here content css starts here  */
+.hero-content{
+    height: 100vh;
+    background: url("bg.jpg") no-repeat ;
+    background-size: cover;
+    padding: 9rem;
+    color: #f3f1f1;
+
+}
+
+.get-started{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #6ec0dc;
+    color: #293750!important;
+    transition: 0.3s;
+}
+
+.get-started:hover{
+    text-decoration: none;
+    background-color: #bfdff0;
+    
+}
+/* here content css starts here  */
+
+/* get-started-buttons css starts here*/
+.get-started-content{
+    height: 60vh;
+    background-color: #ff8a65;
+    border-top-left-radius: 42rem;
+    border-top-right-radius: 42rem;
+    border-bottom-right-radius: 42rem;
+    border-bottom-left-radius: 42rem;
+}
+
+.get-started-content .row{
+    padding: 25vh 0;
+}
+
+.get-started-content a{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #039be5;
+    color: #fff!important;
+    transition: 0.3s;
+}
+
+.get-started-content a:hover{
+    background-color: #017ab6;
+    text-decoration: none;
+}
+/* get-started-buttons css end here*/
+
+/* footer css starts here */
+footer{
+    padding-top:20px;
+    background-color:  #293750;
+    color: #f3f1f1
+}
+
+.social-icons li{
+    list-style: none;
+    display: inline;
+    padding: 0.5rem;
+}
+
+.github{
+    color: #f3f1f1;
+}
+.linkedin{
+    color: #f3f1f1;
+}
+.github:hover{
+    color: #bfdff0;
+}
+.linkedin:hover{
+    color: #bfdff0;
+}
+
+.google{
+    color: #D44638;
+}
